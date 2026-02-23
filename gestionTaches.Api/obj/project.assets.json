@@ -107,6 +107,23 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "gestionTaches.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.24",
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/gestionTaches.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/gestionTaches.Domain.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -473,12 +490,18 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "gestionTaches.Domain/1.0.0": {
+      "type": "project",
+      "path": "../gestionTaches.Domain/gestionTaches.Domain.csproj",
+      "msbuildProject": "../gestionTaches.Domain/gestionTaches.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.24",
-      "Swashbuckle.AspNetCore >= 6.6.2"
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "gestionTaches.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -505,7 +528,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\oumai\\svbdev\\todo-crud-app\\gestionTaches.Domain\\gestionTaches.Domain.csproj": {
+              "projectPath": "C:\\Users\\oumai\\svbdev\\todo-crud-app\\gestionTaches.Domain\\gestionTaches.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

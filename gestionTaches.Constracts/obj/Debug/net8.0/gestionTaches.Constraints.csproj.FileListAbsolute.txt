@@ -1,0 +1,8 @@
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.csproj.AssemblyReference.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.AssemblyInfoInputs.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.AssemblyInfo.cs
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.csproj.CoreCompileInputs.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Constraints\obj\Debug\net8.0\gestionTaches.Constraints.sourcelink.json
