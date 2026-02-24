@@ -1,0 +1,12 @@
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\bin\Debug\net8.0\gestionTaches.Contracts.deps.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\bin\Debug\net8.0\gestionTaches.Contracts.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\bin\Debug\net8.0\gestionTaches.Contracts.pdb
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.AssemblyInfoInputs.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.AssemblyInfo.cs
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.sourcelink.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\refint\gestionTaches.Contracts.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\gestionTaches.Contracts.pdb
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Contracts\obj\Debug\net8.0\ref\gestionTaches.Contracts.dll

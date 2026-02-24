@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\gestionTaches.Presentation.props" />
+</Project>

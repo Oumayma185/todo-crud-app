@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\gestionTaches.Infrastructure\gestionTaches.Infrastructure.csproj" />
     <ProjectReference Include="..\gestionTaches.Application\gestionTaches.Application.csproj" />
+    <ProjectReference Include="..\gestionTaches.Contracts\gestionTaches.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

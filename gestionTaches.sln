@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gestionTaches.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gestionTaches.Domain", "gestionTaches.Domain\gestionTaches.Domain.csproj", "{7C5EC0EA-FEF3-41BF-BFEE-EA0F7CFE5753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gestionTaches.Contracts", "gestionTaches.Constracts\gestionTaches.Contracts.csproj", "{06DF4BB5-6303-44EC-AF34-DC28D9D9775C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gestionTaches.Contracts", "gestionTaches.Contracts\gestionTaches.Contracts.csproj", "{517EE488-888C-4209-B547-B7A0B7B2EBAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +38,9 @@ Global
 		{7C5EC0EA-FEF3-41BF-BFEE-EA0F7CFE5753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C5EC0EA-FEF3-41BF-BFEE-EA0F7CFE5753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C5EC0EA-FEF3-41BF-BFEE-EA0F7CFE5753}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06DF4BB5-6303-44EC-AF34-DC28D9D9775C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06DF4BB5-6303-44EC-AF34-DC28D9D9775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06DF4BB5-6303-44EC-AF34-DC28D9D9775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06DF4BB5-6303-44EC-AF34-DC28D9D9775C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517EE488-888C-4209-B547-B7A0B7B2EBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517EE488-888C-4209-B547-B7A0B7B2EBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517EE488-888C-4209-B547-B7A0B7B2EBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517EE488-888C-4209-B547-B7A0B7B2EBAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

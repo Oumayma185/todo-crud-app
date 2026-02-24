@@ -4,6 +4,7 @@
     <projectFile profileName="IIS Express">gestionTaches.Application/gestionTaches.Application.csproj</projectFile>
     <projectFile profileName="http">gestionTaches.Application/gestionTaches.Application.csproj</projectFile>
     <projectFile profileName="https">gestionTaches.Application/gestionTaches.Application.csproj</projectFile>
+    <projectFile>gestionTaches.Constracts/gestionTaches.Contracts.csproj</projectFile>
     <projectFile profileName="IIS Express">gestionTaches.Contracts/gestionTaches.Contracts.csproj</projectFile>
     <projectFile profileName="http">gestionTaches.Contracts/gestionTaches.Contracts.csproj</projectFile>
     <projectFile profileName="https">gestionTaches.Contracts/gestionTaches.Contracts.csproj</projectFile>
@@ -22,44 +23,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a4c8abf-0e3b-4640-8ad5-89b49c3aaed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/CreateTache/CreateTacheCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/CreateTache/CreateTacheCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/DeleteTache/DeleteTacheCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/DeleteTache/DeleteTacheCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/UpdateTache/UpdateTacheCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/UpdateTache/UpdateTacheCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Mappings/MappingConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Queries/Taches/GetTacheById/GetTacheByIdHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Queries/Taches/GetTacheById/GetTacheByIdQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Queries/Taches/GetTaches/GetTachesQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Queries/Taches/GetTaches/GetTachesQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Dtos/TacheDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Requests/Taches/CreateTacheRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Requests/Taches/DeleteTacheRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Requests/Taches/UpdateTacheRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Responses/GetTacheByIdResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Responses/GetTachesResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/gestionTaches.Contracts.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Domain/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Domain/Entities/Tache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Domain/gestionTaches.Domain.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Infrastructure/TachesDBContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Presentation/Modules/TachesModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Presentation/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestionTaches.Presentation/gestionTaches.Presentation.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/gestionTaches.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Api/gestionTaches.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/gestionTaches.Api.http" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/gestionTaches.Api.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/obj/gestionTaches.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/obj/gestionTaches.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/obj/gestionTaches.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Api.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionTaches.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Behaviors/ValidationBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/CreateTache/CreateTacheCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/DeleteTache/DeleteTacheCommandVaalidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/UpdateTache/UpdateTacheCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Application/Queries/Taches/GetTacheById/GetTacheByIdQueryValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Errors/ValidationError.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionTaches.Constracts/Exceptions/CustomValidationException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/gestionTaches.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/gestionTaches.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/Debug/net8.0/gestionTaches.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/Debug/net8.0/gestionTaches.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/Debug/net8.0/gestionTaches.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/Debug/net8.0/gestionTaches.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/Debug/net8.0/gestionTaches.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/Debug/net8.0/gestionTaches.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/gestionTaches.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/gestionTaches.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/gestionTaches.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/gestionTaches.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Constracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Constracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Constracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Constracts.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Constracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Constracts.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Contracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Contracts.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/Debug/net8.0/gestionTaches.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/gestionTaches.Constracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/gestionTaches.Constracts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/gestionTaches.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/gestionTaches.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Constracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Constracts/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/gestionTaches.Presentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/gestionTaches.Presentation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/Debug/net8.0/gestionTaches.Presentation.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/Debug/net8.0/gestionTaches.Presentation.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/Debug/net8.0/gestionTaches.Presentation.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/Debug/net8.0/gestionTaches.Presentation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/Debug/net8.0/gestionTaches.Presentation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/Debug/net8.0/gestionTaches.Presentation.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Presentation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Presentation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Presentation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/gestionTaches.Presentation.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionTaches.Presentation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.Presentation/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gestionTaches.sln" beforeDir="false" afterPath="$PROJECT_DIR$/gestionTaches.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +70,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/42be5c4a14c8730e510a9a642da5543c738da87a1737134bec1e3115f9fa1c/IPipelineBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Application/Behaviors/ValidationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/CreateTache/CreateTacheCommandValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/DeleteTache/DeleteTacheCommandVaalidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Application/Commands/Taches/UpdateTache/UpdateTacheCommandValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Application/Queries/Taches/GetTacheById/GetTacheByIdQueryValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Constracts/Errors/ValidationError.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gestionTaches.Constracts/Exceptions/CustomValidationException.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -87,6 +100,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -102,6 +116,27 @@
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.gestionTaches.Application: IIS Express">
+    <configuration name="gestionTaches.Contracts" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/gestionTaches.Constracts/gestionTaches.Contracts.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="gestionTaches.Application: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/gestionTaches.Application/gestionTaches.Application.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -352,6 +387,7 @@
       <updated>1771857056423</updated>
       <workItem from="1771857059173" duration="64000" />
       <workItem from="1771857158111" duration="639000" />
+      <workItem from="1771857930880" duration="5276000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,12 @@
-C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.csproj.AssemblyReference.cache
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\bin\Debug\net8.0\gestionTaches.Domain.deps.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\bin\Debug\net8.0\gestionTaches.Domain.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\bin\Debug\net8.0\gestionTaches.Domain.pdb
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.AssemblyInfoInputs.cache
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.AssemblyInfo.cs
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.csproj.CoreCompileInputs.cache
-C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.sourcelink.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\refint\gestionTaches.Domain.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\gestionTaches.Domain.pdb
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Domain\obj\Debug\net8.0\ref\gestionTaches.Domain.dll
