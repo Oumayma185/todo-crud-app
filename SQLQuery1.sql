@@ -27,12 +27,16 @@ INSERT INTO Users (Email, Nom, Password)
 VALUES ('ouma@mail.com', 'Oumaima', 'hashedpassword1');
 
 
-INSERT INTO Taches(UserId, Title, Description)
-VALUES 
-(1, 'Faire les courses', 'Acheter lait et pain'),
-(1, 'Lire la formation', 'Réaliser le projet CRUD');
+INSERT INTO Taches (Title, Description, IsDone, UserId, CreatedAt)
+VALUES
+('Faire la vaisselle', 'Laver les assiettes et verres', 0, 1, GETDATE()),
+('Préparer le rapport', 'Rapport mensuel pour le manager', 0, 1, GETDATE()),
+('Réviser le projet Todo', 'Corriger les bugs de l\'application React', 0, 1, GETDATE()),
+('Appeler le fournisseur', 'Confirmer la livraison des fournitures', 1, 1, GETDATE()),
+('Envoyer l\'email de suivi', 'Envoyer l\'email à l\'équipe', 0, 1, GETDATE()),
+('Planifier réunion', 'Organiser la réunion hebdomadaire du projet', 0, 1, GETDATE()),
+('Nettoyer le bureau', 'Ranger les documents et organiser les tiroirs', 1, 1, GETDATE()),
+('Mettre à jour le CV', 'Ajouter les derniers projets réalisés', 0, 1, GETDATE()),
+('Lire un article technique', 'Se tenir à jour sur les nouvelles technologies', 0, 1, GETDATE()),
+('Faire les courses', 'Acheter fruits, légumes et lait', 0, 1, GETDATE());
 
-SELECT t.Id, t.Title, t.Description, t.IsDone, u.Nom
-FROM Taches t
-JOIN Users u ON t.UserId = u.Id
-WHERE u.Email = 'ouma@mail.com';
