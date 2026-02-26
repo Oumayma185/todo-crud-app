@@ -17,6 +17,9 @@ public class GetTachesQueryHandler: IRequestHandler<GetTachesQuery,GetTachesResp
     }
     public async Task<GetTachesResponse> Handle(GetTachesQuery request, CancellationToken cancellationToken)
     {
+        /*var taches= await _tachesDbContext.Taches
+            .Where(t => t.UserId == request.UserId)
+            .ToListAsync(cancellationToken);*/
         var taches=await _tachesDbContext.Taches.ToListAsync(cancellationToken);
         return taches.Adapt<GetTachesResponse>();
     }

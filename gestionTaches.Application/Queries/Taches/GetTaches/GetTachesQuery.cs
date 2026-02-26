@@ -5,5 +5,5 @@ namespace gestionTaches.Application.Queries.Taches.GetTaches;
 
 public class GetTachesQuery : IRequest<GetTachesResponse>
 {
-    
+
 }

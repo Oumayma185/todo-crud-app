@@ -1,5 +1,6 @@
 ﻿using gestionTaches.Application.Commands.Taches.CreateTache;
 using gestionTaches.Application.Commands.Taches.DeleteTache;
+using gestionTaches.Contracts.Exceptions;
 using gestionTaches.Domain.Entities;
 using gestionTaches.Infrastructure;
 using MediatR;
@@ -23,8 +24,7 @@ public class UpdateTacheCommandHandler :IRequestHandler<UpdateTacheCommand,Unit>
             await _tachesDbContext.Taches.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
         if (tacheToUpdate is null)
         {
-            throw new Exception();
-            
+            throw new NotFoundException("Aucune tache correspondante");            
         }
 
         tacheToUpdate.Description = request.Description;

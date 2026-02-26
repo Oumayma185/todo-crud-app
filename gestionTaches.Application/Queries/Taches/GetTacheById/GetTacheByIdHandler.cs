@@ -1,5 +1,7 @@
 ﻿using gestionTaches.Application.Queries.Taches.GetTaches;
+using gestionTaches.Contracts.Exceptions;
 using gestionTaches.Contracts.Responses;
+using gestionTaches.Domain.Entities;
 using gestionTaches.Infrastructure;
 using Mapster;
 using MediatR;
@@ -24,7 +26,11 @@ public class GetTacheByIdHandler : IRequestHandler<GetTacheByIdQuery, GetTacheBy
         
         if (tache == null)
         {
-            throw new Exception("Aucune Tache correspondante");
+            throw new NotFoundException("Aucune Tache correspondante");
+           // throw new NotFoundException($"{nameof(tache)}" +
+                                       // $"with {nameof(tache.Id)} : {request.Id}" +
+                                       // "n'est pas trouvé!");
+
         }
         return tache.Adapt<GetTacheByIdResponse>();
     }

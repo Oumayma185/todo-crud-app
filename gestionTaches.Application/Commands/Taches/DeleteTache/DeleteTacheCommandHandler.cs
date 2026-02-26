@@ -1,4 +1,5 @@
-﻿using gestionTaches.Infrastructure;
+﻿using gestionTaches.Contracts.Exceptions;
+using gestionTaches.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,7 +21,7 @@ public class DeleteTacheCommandHandler: IRequestHandler<DeleteTacheCommand,Unit>
             await _tachesDbContext.Taches.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
         if (tacheToDelete is null)
         {
-            throw new Exception();
+            throw new NotFoundException("Aucune tache correspondante");
         }
 
         _tachesDbContext.Taches.Remove(tacheToDelete);

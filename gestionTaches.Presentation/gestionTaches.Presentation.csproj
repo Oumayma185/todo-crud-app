@@ -20,4 +20,10 @@
     <ProjectReference Include="..\gestionTaches.Contracts\gestionTaches.Contracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Client\" />
+    <Folder Include="Client\gestionTaches\public\" />
+    <Folder Include="Client\gestionTaches\src\assets\" />
+  </ItemGroup>
+
 </Project>

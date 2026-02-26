@@ -2,4 +2,4 @@
 
 namespace gestionTaches.Contracts.Responses;
 
-public record GetTachesResponse(List<TacheDto> TachesDtos);
+public record GetTachesResponse(List<TacheDto> tachesDtos);

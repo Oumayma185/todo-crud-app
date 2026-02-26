@@ -85,3 +85,10 @@ C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\obj\Debug\net8.0\
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\obj\Debug\net8.0\gestionTaches.Presentation.pdb
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\obj\Debug\net8.0\gestionTaches.Presentation.genruntimeconfig.cache
 C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\obj\Debug\net8.0\ref\gestionTaches.Presentation.dll
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\gestionTaches\package-lock.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\gestionTaches\package.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\gestionTaches\tsconfig.app.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\gestionTaches\tsconfig.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\gestionTaches\tsconfig.node.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\package-lock.json
+C:\Users\oumai\svbdev\todo-crud-app\gestionTaches.Presentation\bin\Debug\net8.0\Client\package.json
